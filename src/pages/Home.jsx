@@ -14,8 +14,9 @@ export const Home = () => {
 
         <div className="grid gap-6 sm:grid-cols-2 w-full max-w-4xl">
           <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center hover:scale-105 transition-transform">
-            <h2 className="text-2xl font-semibold text-indigo-600 mb-2">
-              ⚗️ Chemical Reaction Calculator
+            <h2 className="text-xl sm:text-2xl flex flex-col items-center text-center justify-center font-semibold text-indigo-600 mb-2">
+              <div className=" text-center">⚗️ Chemical Reaction</div>
+              <div className="text-center">Calculator</div>
             </h2>
             <p className="text-gray-600 text-center mb-4">
               Balance any chemical equation automatically and understand the
@@ -29,11 +30,12 @@ export const Home = () => {
             </a>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center hover:scale-105 transition-transform">
-            <h2 className="text-2xl font-semibold text-green-600 mb-2">
-              🧮 Kinematics Calculator
+            <h2 className="text-xl sm:text-2xl flex flex-col items-center text-center justify-center font-semibold text-green-600 mb-2">
+              <div className=" text-center">🧮 Kinematics Equation</div>
+              <div className="text-center">Solver</div>
             </h2>
             <p className="text-gray-600 text-center mb-4">
-              Solve velocity, acceleration, and displacement with our intuitive
+              Solve velocity, acceleration, displacement and projectile motion with our intuitive
               physics calculator.
             </p>
             <a
@@ -45,8 +47,9 @@ export const Home = () => {
           </div>
         </div>
 
-        <footer className="mt-16 text-gray-500 text-sm ">
-          ©2025 Build by Priyansh Patel. Built with 🧠 and ❤️.
+        <footer className="mt-16 text-gray-500 text-sm items-center text-center flex-col flex justify-center">
+          <div>©2025 Build by Priyansh Patel</div>
+          <div>Built with 🧠 and ❤️.</div>
         </footer>
       </div>
     </>

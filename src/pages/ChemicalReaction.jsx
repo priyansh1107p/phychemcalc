@@ -53,8 +53,9 @@ export const ChemicalReaction = () => {
           )}
         </div>
       </main>
-      <footer className="mt-16 text-gray-500 text-sm">
-        ©2025 Build by Priyansh Patel. Built with 🧠 and ❤️.
+      <footer className="mt-16 text-gray-500 text-sm items-center text-center flex-col flex justify-center">
+        <div>©2025 Build by Priyansh Patel</div>
+        <div>Built with 🧠 and ❤️.</div>
       </footer>
     </div>
   );
